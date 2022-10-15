@@ -124,8 +124,8 @@ const ServicesTradecard = (props) => {
         
       </div>
       <div className="detail">
-      <span>${finddata.y} m</span>
       <span>Trade Imports</span> 
+      <span>$ {finddata.y} m</span>
         <span>Last One Year</span>
       </div>
     </motion.div>

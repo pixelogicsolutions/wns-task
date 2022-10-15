@@ -34,6 +34,25 @@
   padding: 30px;
  
 }
+.groupbg .apexcharts-canvas , .servicegroupbg .apexcharts-canvas {
+  width: 750px ;
+}
+
+@media  (max-width: 1440px) {
+
+  .groupbg .apexcharts-canvas , .servicegroupbg .apexcharts-canvas {
+    width: 500px !important;
+  }
+
+  .maincard {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    gap: 0.8rem;
+    grid-template-columns: 49% 49%;
+}
+
+}
 
 @media screen and (max-width: 1200px) {
   .Cards{
@@ -41,6 +60,9 @@
   }
   .parentContainer{
     height: 9rem;
+  }
+  .groupbg .apexcharts-canvas , .servicegroupbg .apexcharts-canvas {
+    width: 100% !important;
   }
 }
 
@@ -56,4 +78,8 @@
     gap: 0.8rem;
     grid-template-columns: 100%;
   }
+  .groupbg .apexcharts-canvas , .servicegroupbg .apexcharts-canvas {
+    width: 100% !important;
+  }
+  
 }

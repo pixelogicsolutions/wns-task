@@ -34,7 +34,7 @@ const GoodsChart = () => {
     options: {
         chart: {
           type: 'area',
-            width: 80,
+          width: "100%",
             height: 1,
             sparkline: {
               enabled: true
@@ -60,10 +60,7 @@ const GoodsChart = () => {
           },
         },
           colors:["#f1416c","#081875"],
-          title: {
-            text: "Goods",
-            align: 'center',
-          },
+         
         grid: {
           show: false,
         },
@@ -109,7 +106,10 @@ const GoodsChart = () => {
           labels: {
             show: false
           },
-          
+          responsive: [{
+            breakpoint: 748,
+            options: {},
+        }],
           
         },
       },
@@ -118,7 +118,7 @@ const GoodsChart = () => {
   
   };
 
-      return  <Chart options={data.options} series={series}  type="area"  height={150} width={745} />
+      return  <Chart options={data.options} series={series}  type="area"  height={150}  />
 
     };
 

@@ -85,6 +85,10 @@ const TradeLineChart = () => {
         show: true,
         minWidth: 40
       },
+      responsive: [{
+        breakpoint: 748,
+        options: {},
+    }],
       colors: ["#f1416c", "#081875", "#FA8B0C" ],
     }
 

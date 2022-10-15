@@ -116,7 +116,7 @@
   .bars{
     display: flex;
     position: fixed;
-    top: 2rem;
+    top: 0.33333rem;
     left:60%;
     background:#ffe0e0;
     padding:10px;

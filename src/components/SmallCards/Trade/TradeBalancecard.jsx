@@ -123,8 +123,8 @@ const TradeBalancecard = (props) => {
         
       </div>
       <div className="detail">
-      <span>${finddata.y} m</span>
       <span>Trade Balance</span>
+      <span>$ {finddata.y} m</span>
         <span>Last One Year</span>
       </div>
     </motion.div>

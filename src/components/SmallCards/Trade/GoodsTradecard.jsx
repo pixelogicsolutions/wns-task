@@ -124,8 +124,8 @@ const GoodsTradecard = (props) => {
         
       </div>
       <div className="detail">
-      <span>${finddata.y} m</span>
       <span>Goods Trades</span>
+      <span>$ {finddata.y} m</span>
         <span>Last One Year</span>
       </div>
     </motion.div>

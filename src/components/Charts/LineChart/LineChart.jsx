@@ -82,6 +82,10 @@ const LineChart = () => {
         show: true,
         minWidth: 40
       },
+      responsive: [{
+        breakpoint: 748,
+        options: {},
+    }],
       colors: ["#f1416c","#081875", "#FA8B0C","#5F63F2", "#EE423D", "#2EA738"],
     }
   

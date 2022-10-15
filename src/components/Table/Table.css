@@ -34,10 +34,18 @@ tbody tr:nth-child(1), tr:nth-child(4){
 .Details {
   color: #00b5ff !important;
 }
-
+@media screen and (max-width: 1440px) {
+.Table {
+  display: grid;
+  height: 100%;
+  width: 95%;
+  gap: 0.8rem;
+  grid-template-columns: 100%;
+}
+}
 @media screen and (max-width: 1200px) {
   .Table {
-    width: 170%;
+    width: 100%;
     margin-top: 2rem;
   }
 }
@@ -49,6 +57,6 @@ tbody tr:nth-child(1), tr:nth-child(4){
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 23rem;
+    width: 100%;
   }
 }
