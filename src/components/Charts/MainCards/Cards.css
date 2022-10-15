@@ -1,0 +1,59 @@
+.Cards {
+  display: flex;
+  gap:2rem;
+}
+.parentContainer{
+  width: 100%;
+}
+.maincard {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  gap: 0.8rem;
+  grid-template-columns: 49.6% 49.6%;
+}
+.Charts{
+  
+  flex: 1;
+  border-radius: 0.7rem;
+  color: var(--black);
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.Chart{
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1rem;
+  background: var(--white);
+  border-radius: 30px;
+  margin: 2rem 0rem;
+  padding: 30px;
+ 
+}
+
+@media screen and (max-width: 1200px) {
+  .Cards{
+    flex-direction: column;
+  }
+  .parentContainer{
+    height: 9rem;
+  }
+}
+
+@media screen and (max-width: 768px)
+{
+  .Cards{
+    width: 90%;
+  }
+  .maincard {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    gap: 0.8rem;
+    grid-template-columns: 100%;
+  }
+}

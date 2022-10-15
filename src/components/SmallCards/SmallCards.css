@@ -1,0 +1,54 @@
+.Smallcards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    min-width: 0px;
+    overflow-wrap: break-word;
+    padding: 15px 20px;
+    border-radius: 20px;
+    background: border-box rgb(255, 255, 255);
+}
+
+.groupbg{
+    background: #fff;
+    padding: 20px;
+    border-radius: 30px;
+  /*  margin: 2rem 0.5rem 0rem;*/
+}
+.servicegroupbg{
+  background: #fff;
+  padding: 20px;
+  border-radius: 30px;
+/*  margin: 2rem 0.5rem 0rem;*/
+
+}
+.darkbg{
+    background: var(--black);
+    color: var(--white) !important;
+}
+
+.green .CircularProgressbar-path {
+    stroke: var(--green) !important;
+    stroke-width: 12px !important;
+   
+  }
+
+.green .CircularProgressbar-text {
+    fill: var(--green) !important;
+    
+  }
+
+  .green {
+    color: var(--green) !important;
+    
+  }
+  .red {
+    color: var(--red)!important;
+    
+  }
+  .css-tzssek-MuiSvgIcon-root, .css-i4bv87-MuiSvgIcon-root{
+    font-size: 3.856rem !important;
+   
+  }
+
